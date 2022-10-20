@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const Information = ({ title, name }) => {
   return (
     <>
-      <h1>{title}</h1>
+      <h1 data-testid="test-title">{title}</h1>
       <h2>{name}</h2>
     </>
   )
